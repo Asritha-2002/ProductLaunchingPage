@@ -1,0 +1,67 @@
+/* SignIn.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+  }
+  .heading{
+    text-align: center;
+    margin: 70px auto;
+  }
+  .signInForm {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signInForm h4 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .signInForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .signInForm input[type="text"],
+  .signInForm input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signInForm input[type="text"]:focus,
+  .signInForm input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .signInForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signInForm button:hover {
+    background-color: #0056b3;
+  }
+  
